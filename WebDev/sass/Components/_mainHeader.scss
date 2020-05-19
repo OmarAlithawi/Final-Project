@@ -1,0 +1,19 @@
+.main{
+    grid-row: 7/9;
+    grid-column: 8/12;
+    z-index: 5;
+
+    &__heading-1{
+        grid-row: 7/8;
+        letter-spacing: .5rem;
+        font-weight: bold;
+    }
+
+    &__heading-3{
+        grid-row: 8/9;
+        letter-spacing: .2rem;
+        margin-left: .6rem;
+    }
+}
+
+

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+.row{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    display: grid;
+    grid-template-columns:[all-start]1fr [full-start] repeat(10, 1fr  )[full-end]1fr[all-end];
+    grid-template-rows: repeat(6 , 100vh) 10vh;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Lato', ;
+}

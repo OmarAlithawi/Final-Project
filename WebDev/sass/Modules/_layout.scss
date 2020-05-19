@@ -1,0 +1,11 @@
+.header,
+.about,
+.services,
+.our-team,
+.our-team__info-pop,
+.testa,
+.form{
+    display: grid;
+    grid-template-columns:[all-start]1fr [full-start] repeat(10, 1fr  )[full-end]1fr[all-end];
+    grid-template-rows: repeat(12 , 1fr) ;
+}
