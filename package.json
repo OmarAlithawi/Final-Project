@@ -9,6 +9,7 @@
   "author": "Omar",
   "license": "ISC",
   "dependencies": {
+    "minimist": "^1.2.5",
     "node-sass": "^4.13.1"
   }
 }
